@@ -1,0 +1,24 @@
+# Ignore all .pyc files
+*.pyc
+
+# Ignore specific directories
+__pycache__/
+.vscode/
+build/
+dist/
+*.egg-info/
+
+# Ignore sensitive files
+.env
+secret_key.txt
+
+# OS generated files
+.DS_Store # For macOS
+Thumbs.db # For Windows
+
+# Ignore files related to virtual environments
+venv/
+.venv/
+conda/
+.conda
+env/
